@@ -10,7 +10,7 @@ html {
 *:before,
 *:after {
 	box-sizing: inherit;
-/*	border: 1px solid red; */
+	border: 1px solid red;
 }
 .group:after {
   content: "";
@@ -18,25 +18,19 @@ html {
   clear: both;
 }
 header {
-	background: url(../img/3_LarsEdit_fullBar.png) no-repeat;
-	width: 97%;
-	height: 50%;
-	font-family: 'Montserrat', sans-serif;
-}
-header h1 {
-	padding: 0.5em;
-	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
 }
 header h1 a {
 	text-decoration: none;
 }
 h1, h2, h3, h4 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 600italic;
 	background-color: #DCF0FF;
 }
 body {
-	font-family: Josefin Sans;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600italic;
 	background-color: #E9EAFF;
 }
 a {
@@ -44,12 +38,13 @@ a {
 }
 .wrapper {
 	width: 97%;
-	max-width: 1920px;
+	max-width: 1800px;
 	margin: 0 auto;
 	float: none;
 	background-color: #D0C8E8;
 }
 nav {
+	font-family: 'Josefin Sans', sans-serif;
 	background-color: #EEDCFF;
 }
 nav ul {
@@ -58,11 +53,7 @@ nav ul {
 	list-style-type: none;
 	overflow: auto;
 }
-nav ul li {
-	font-family: 'Montserrat', sans-serif;
-}
 nav ul a {
-	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	padding: 1em;
 	float: left;
@@ -97,4 +88,96 @@ div.col-1 img {
 
 
 /* Media Queries */
-/* 
+/* hi-res desktops up to and including 1920px width */
+@media only screen and (min-width: 1600px) {
+	header, h1, h2 {
+		font-size: 2.25em;
+	}
+	li {
+		font-size: 1.5em;
+	}
+	p {
+		font-size: 2em;
+	}
+	header {
+		width: 97%;
+		height: 50%;
+	}
+	header h1 {
+		padding: 0.5em;
+		margin: 0;
+		background: url(../img/Matrix_Coding_xtrlarge.png) no-repeat;
+	}
+}
+
+/* average desktops between tablet size and hi-res */
+@media only screen and (min-width: 1024px) and (max-width: 1599px){
+	header, h1, h2, li {
+		font-size: 1.75em;
+	}
+	p {
+		font-size: 1.5em;
+	}
+	header {
+		width: 97%;
+		height: 50%;
+	}
+	header h1 {
+		padding: 0.5em;
+		margin: 0;
+	}
+}
+
+/* IOS devices in porttrait */
+@media only screen and (min-width: 980px) and (max-width: 1023px){
+	header, h1, h2, li {
+		font-size: 1.5em;
+	}
+	p {
+		font-size: 1.25em;
+	}
+	header {
+		width: 97%;
+		height: 50%;
+	}
+	header h1 {
+		padding: 0.5em;
+		margin: 0;
+	}
+}
+
+/* lower-res tablets and phones */
+@media only screen and (min-width: 768px) and (max-width: 979px){
+	header, h1, h2, li {
+		font-size: 1.25em;
+	}
+	p {
+		font-size: 1em;
+	}
+	header {
+		width: 97%;
+		height: 50%;
+	}
+	header h1 {
+		padding: 0.5em;
+		margin: 0;
+	}
+}
+
+/* smartphone */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	header, h1, h2, li {
+		font-size: 1em;
+	}
+	p {
+		font-size: .75em;
+	}
+	header {
+		width: 97%;
+		height: 50%;
+	}
+	header h1 {
+		padding: 0.5em;
+		margin: 0;
+	}
+}
