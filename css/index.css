@@ -80,7 +80,7 @@ div.col-1 img {
 	width: 30%;
 }
 .col-2 {
-	width: 65.55556%;
+	width: 60%;
 }
 .col-3 {
 	width: 96.66669%;
@@ -106,7 +106,7 @@ div.col-1 img {
 	header h1 {
 		padding: 0.5em;
 		margin: 0;
-		background: url(../img/Matrix_Coding_xtrlarge.png) no-repeat;
+		background: url(../img/Appian_Way_Pan_large.jpg) no-repeat;
 	}
 }
 
@@ -125,6 +125,7 @@ div.col-1 img {
 	header h1 {
 		padding: 0.5em;
 		margin: 0;
+		background: url(../img/Appian_Way_Pan_med.jpg) no-repeat;
 	}
 }
 
@@ -143,6 +144,7 @@ div.col-1 img {
 	header h1 {
 		padding: 0.5em;
 		margin: 0;
+		background: url(../img/Appian_Way_Pan_small.jpg) no-repeat;
 	}
 }
 
@@ -161,6 +163,7 @@ div.col-1 img {
 	header h1 {
 		padding: 0.5em;
 		margin: 0;
+		background: url(../img/Appian_Way_Pan_small.jpg) no-repeat;
 	}
 }
 
@@ -179,5 +182,6 @@ div.col-1 img {
 	header h1 {
 		padding: 0.5em;
 		margin: 0;
+		background: url(../img/Appian_Way_Pan_small.jpg) no-repeat;
 	}
 }
